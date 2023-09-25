@@ -15,6 +15,6 @@
     "no-console": 0,
     "no-extra-semi": 1,
     "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "^_" }],
-    "prettier/prettier": 2 // Means error
+    "prettier/prettier": ["warning", { "singleQuote": true, "semi": false }]
   }
 }
