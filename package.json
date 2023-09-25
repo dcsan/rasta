@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx nodemon",
+    "dev": "npx nodemon",
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts",
@@ -33,5 +33,8 @@
     "hooks": {
       "pre-push": "npm run prettier-format && npm run lint"
     }
+  },
+  "dependencies": {
+    "sharp": "^0.32.6"
   }
 }

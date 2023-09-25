@@ -1,3 +1,11 @@
+.DS_Store
+
+
+# build
+# dist
+data/output
+
+
 # Logs
 logs
 *.log
